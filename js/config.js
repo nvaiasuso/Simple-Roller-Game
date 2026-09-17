@@ -24,7 +24,8 @@ SPOT_DISTANCE: 240,      // how far it can see, in pixels
 HEAR_DISTANCE: 80,       // how close you get before it "hears" you  
 ENEMY_SHOOT_FRAMES: 45,  // frames between shots  
 BULLET_SPEED: 6,         // bullet speed  
-LEAD_FRAMES: 10          // how far ahead it aims -- your "leading shots" idea  
+LEAD_FRAMES: 10,         // how far ahead it aims  
+
 
 
   // --- how the player moves -------------------------------------------
