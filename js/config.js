@@ -17,6 +17,16 @@ var CONFIG = {
   CANVAS_W: 800,
   CANVAS_H: 400,
 
+   ENEMY_SPEED: 2,          // how fast it patrols and chases  
+ENEMY_SIZE: 32,          // its collision box  
+SPOT_FRAMES: 60,         // seeing you this long (about 1 sec) triggers run  
+SPOT_DISTANCE: 240,      // how far it can see, in pixels  
+HEAR_DISTANCE: 80,       // how close you get before it "hears" you  
+ENEMY_SHOOT_FRAMES: 45,  // frames between shots  
+BULLET_SPEED: 6,         // bullet speed  
+LEAD_FRAMES: 10          // how far ahead it aims -- your "leading shots" idea  
+
+
   // --- how the player moves -------------------------------------------
   MOVE_SPEED: 4,      // pixels per frame left and right
   JUMP_POWER: 15,     // how hard the jump pushes UP. bigger = higher
