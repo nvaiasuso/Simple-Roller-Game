@@ -27,6 +27,23 @@
         "gap",
         "flat",
         "finish"
+        "levels": [  
+    {  
+      "name": "Level 1 - Hard Run",  
+      "pieces": [  
+        "start",  
+        "flat",  
+        "gap",  
+        "hard_gap3",  
+        "spikes",  
+        "platform",  
+        "hard_gauntlet",  
+        "stairs",  
+        "finish"  
+      ]  
+    }  
+  ]  
+
       ]
     }
   ]
